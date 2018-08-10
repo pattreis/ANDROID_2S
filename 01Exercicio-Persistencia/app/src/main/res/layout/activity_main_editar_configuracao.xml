@@ -1,0 +1,61 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exibir_splash"
+        android:textSize="30dp"
+        android:fontFamily="@string/ff1"
+        android:id="@+id/chkSplash"
+        android:checked="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tempo"
+        android:textSize="@dimen/fontSize_padrao"
+        android:layout_marginTop="@dimen/margin_top_item"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_padrao"
+        android:id="@+id/skbTempo"
+        android:min="1000"
+        android:max="30000"
+        android:progress="10000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cor_de_fundo"
+        android:textSize="@dimen/fontSize_padrao"
+        android:layout_marginTop="@dimen/margin_top_item"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnCor"
+        android:layout_marginTop="@dimen/margin_top_padrao"
+        >
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Salvar"
+        android:onClick="salvarAlteracoes"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">01-Exercicio</string>
+    <string name="configura_o">Configuração</string>
+    <string name="exibir_splash">Exibir Splash?</string>
+    <string name="ff1">sans-serif-scallops</string>
+    <string name="tempo">Tempo:</string>
+    <string name="cor_de_fundo">Cor de Fundo</string>
+    <string name="salvo">Show Business !!! Salvo</string>
+</resources>
