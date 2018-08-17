@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgContato"
+        tools:src="@drawable/p1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Nome do sujeito"
+        android:layout_toRightOf="@id/imgContato"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefone"
+        tools:text="(11)1111-1111"
+        android:layout_below="@id/txtNome"
+        android:layout_toRightOf="@id/imgContato"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
+</RelativeLayout>

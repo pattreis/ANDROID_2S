@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="carregando">Carregando</string>
+    <string name="making_fun_apps">Making Fun Apps</string>
+    <string name="funapp">FunApp</string>
+    <string name="configura_es">Configurações</string>
+    <string name="exibir_splash">Exibir Splash</string>
+    <string name="salvar">Salvar</string>
+</resources>
