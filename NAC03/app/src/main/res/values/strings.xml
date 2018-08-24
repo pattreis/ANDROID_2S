@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="digite_o_login">Digite o Login</string>
+    <string name="digite_a_senha">Digite a senha</string>
+    <string name="salvar_usuario_e_senha">Salvar usuário e senha?</string>
+    <string name="login">Login</string>
+    <string name="salvar">Salvar</string>
+    <string name="escolha_o_seu_tema_preferido">Escolha o seu tema preferido:</string>
+    <string name="n_possivel_logar">Não foi possível logar, senha ou usuário inválidos</string>
+</resources>

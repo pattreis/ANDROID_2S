@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "br.com.fiap.a01_persistencia"
-        minSdkVersion 19
+        applicationId "br.com.fiap.nac03.myapplication"
+        minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
