@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RetroFit</string>
+    <string name="erro_conectar_api">Ocorreu um erro ao tentar conectar com o servidor da API.</string>
+</resources>

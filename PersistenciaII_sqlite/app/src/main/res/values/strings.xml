@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PersistenciaII</string>
+    <string name="salvar">Salvar</string>
+    <string name="listar_dados">Listar Dados</string>
+</resources>

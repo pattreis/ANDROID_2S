@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskProject</string>
+    <string name="download_imagem">Download Imagem</string>
+    <string name="digite_a_url_da_imagem">Digite a url da imagem</string>
+</resources>

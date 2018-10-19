@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NAC01</string>
+    <string name="usuario">Usuário:</string>
+    <string name="senha">Senha:</string>
+    <string name="login">LOGIN</string>
+    <string name="manter_conectado">Salvar usuário e senha?</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="escolha_seu_tema_preferido">Escolha seu tema preferido:</string>
+    <string name="salvar">SALVAR</string>
+    <string name="login_invalido">Usuário e/ou senha inválidos.</string>
+    <string name="preferencias_salvas">Preferências salvas com sucesso!</string>
+    <string name="escolha_cor">Escolha uma cor de preferência!!!</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgCliente"
+        tools:src="@drawable/ic_action_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imgCliente"
+        android:layout_marginLeft="10dp"
+        tools:text="João Leonardo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imgCliente"
+        android:layout_below="@+id/txtNome"
+        android:layout_marginLeft="10dp"
+        tools:text="leonardo@yahoo.com.br" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefone"
+        android:layout_toRightOf="@+id/imgCliente"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginLeft="10dp"
+       tools:text="(11) 91234-5678"/>
+
+
+</RelativeLayout>
